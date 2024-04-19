@@ -1,6 +1,7 @@
 ﻿using BLL.DTO;
 using BLL.ServiceInterfaces;
 using DAL;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Model;
 using System;
@@ -20,6 +21,7 @@ namespace BLL_EF
         }
         public void CreateStudent(StudentRequestDTO studentDTO)
         {
+            /*
             Student student = new Student
             {
                 Imie = studentDTO.Imie,
@@ -28,6 +30,15 @@ namespace BLL_EF
             };
             _context.Studenci.Add(student);
             _context.SaveChanges();
+            */
+            using(SqlConnection connection = new SqlConnection("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=StudenciDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False"))
+            {
+                string query = " exec DodajStudenta " + studentDTO.Imie + ", " + studentDTO.Nazwisko + ", " + studentDTO.GrupaID;
+                SqlCommand sqlCommand = new SqlCommand(query, connection);
+                sqlCommand.Connection.Open();
+                sqlCommand.ExecuteNonQuery();
+                sqlCommand.Connection.Close();
+            }
         }
 
         public void DeleteStudent(int id)
