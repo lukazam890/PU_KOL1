@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DAL.Migrations
 {
     [DbContext(typeof(StudenciContext))]
-    [Migration("20240419150611_2")]
-    partial class _2
+    [Migration("20240419161743_1")]
+    partial class _1
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -37,7 +37,12 @@ namespace DAL.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int?>("ParentID")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("ParentID");
 
                     b.ToTable("Grupy");
                 });
@@ -100,6 +105,16 @@ namespace DAL.Migrations
                     b.ToTable("Studenci");
                 });
 
+            modelBuilder.Entity("Model.Grupa", b =>
+                {
+                    b.HasOne("Model.Grupa", "Parent")
+                        .WithMany("Children")
+                        .HasForeignKey("ParentID")
+                        .OnDelete(DeleteBehavior.NoAction);
+
+                    b.Navigation("Parent");
+                });
+
             modelBuilder.Entity("Model.Historia", b =>
                 {
                     b.HasOne("Model.Grupa", "Grupa")
@@ -118,6 +133,11 @@ namespace DAL.Migrations
                         .HasForeignKey("GrupaID");
 
                     b.Navigation("Grupa");
+                });
+
+            modelBuilder.Entity("Model.Grupa", b =>
+                {
+                    b.Navigation("Children");
                 });
 #pragma warning restore 612, 618
         }

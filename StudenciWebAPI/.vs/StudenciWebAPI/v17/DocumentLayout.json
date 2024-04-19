@@ -3,27 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\PU_KOL1\\StudenciWebAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F6554199-1A8B-4C0E-923E-72E9B6A073A9}|StudenciWebAPI.csproj|c:\\users\\student rm4-3073 05\\documents\\github\\pu_kol1\\studenciwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6554199-1A8B-4C0E-923E-72E9B6A073A9}|StudenciWebAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6554199-1A8B-4C0E-923E-72E9B6A073A9}|StudenciWebAPI.csproj|c:\\users\\student rm4-3073 05\\documents\\github\\pu_kol1\\studenciwebapi\\controllers\\historiecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6554199-1A8B-4C0E-923E-72E9B6A073A9}|StudenciWebAPI.csproj|solutionrelative:controllers\\historiecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6D3751A2-B97B-47EC-958E-AF013D4ECCB3}|..\\BLL_EF\\BLL_EF.csproj|c:\\users\\student rm4-3073 05\\documents\\github\\pu_kol1\\bll_ef\\historie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08039209-7646-456B-9BEF-1C2984E07842}|..\\BLL\\BLL.csproj|c:\\users\\student rm4-3073 05\\documents\\github\\pu_kol1\\bll\\dto\\historiaresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08039209-7646-456B-9BEF-1C2984E07842}|..\\BLL\\BLL.csproj|c:\\users\\student rm4-3073 05\\documents\\github\\pu_kol1\\bll\\serviceinterfaces\\ihistorie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08039209-7646-456B-9BEF-1C2984E07842}|..\\BLL\\BLL.csproj|c:\\users\\student rm4-3073 05\\documents\\github\\pu_kol1\\bll\\dto\\historiarequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B23247E-886D-4527-AE7B-AB924509BC15}|..\\Model\\Model.csproj|c:\\users\\student rm4-3073 05\\documents\\github\\pu_kol1\\model\\historia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,92 +18,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\PU_KOL1\\StudenciWebAPI\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\PU_KOL1\\StudenciWebAPI\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T15:15:22.39Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HistorieController.cs",
-              "DocumentMoniker": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\PU_KOL1\\StudenciWebAPI\\Controllers\\HistorieController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HistorieController.cs",
-              "ToolTip": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\PU_KOL1\\StudenciWebAPI\\Controllers\\HistorieController.cs",
-              "RelativeToolTip": "Controllers\\HistorieController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T15:13:32.46Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IHistorie.cs",
-              "DocumentMoniker": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\PU_KOL1\\BLL\\ServiceInterfaces\\IHistorie.cs",
-              "RelativeDocumentMoniker": "..\\BLL\\ServiceInterfaces\\IHistorie.cs",
-              "ToolTip": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\PU_KOL1\\BLL\\ServiceInterfaces\\IHistorie.cs",
-              "RelativeToolTip": "..\\BLL\\ServiceInterfaces\\IHistorie.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T15:09:05.667Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HistoriaResponseDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\PU_KOL1\\BLL\\DTO\\HistoriaResponseDTO.cs",
-              "RelativeDocumentMoniker": "..\\BLL\\DTO\\HistoriaResponseDTO.cs",
-              "ToolTip": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\PU_KOL1\\BLL\\DTO\\HistoriaResponseDTO.cs",
-              "RelativeToolTip": "..\\BLL\\DTO\\HistoriaResponseDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T15:07:00.587Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "HistoriaRequestDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\PU_KOL1\\BLL\\DTO\\HistoriaRequestDTO.cs",
-              "RelativeDocumentMoniker": "..\\BLL\\DTO\\HistoriaRequestDTO.cs",
-              "ToolTip": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\PU_KOL1\\BLL\\DTO\\HistoriaRequestDTO.cs",
-              "RelativeToolTip": "..\\BLL\\DTO\\HistoriaRequestDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T15:06:56.292Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Historia.cs",
-              "DocumentMoniker": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\PU_KOL1\\Model\\Historia.cs",
-              "RelativeDocumentMoniker": "..\\Model\\Historia.cs",
-              "ToolTip": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\PU_KOL1\\Model\\Historia.cs",
-              "RelativeToolTip": "..\\Model\\Historia.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABEAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T15:04:24.048Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Historie.cs",
               "DocumentMoniker": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\PU_KOL1\\BLL_EF\\Historie.cs",
               "RelativeDocumentMoniker": "..\\BLL_EF\\Historie.cs",
-              "ToolTip": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\PU_KOL1\\BLL_EF\\Historie.cs",
-              "RelativeToolTip": "..\\BLL_EF\\Historie.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAmwBQAAABeAAAA",
+              "ToolTip": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\PU_KOL1\\BLL_EF\\Historie.cs*",
+              "RelativeToolTip": "..\\BLL_EF\\Historie.cs*",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAxwCYAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T15:01:44.371Z",
+              "WhenOpened": "2024-04-19T17:45:37.417Z",
               "EditorCaption": ""
             }
           ]

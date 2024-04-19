@@ -8,9 +8,14 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "stronnicowanie",
-        "Type": "BLL.DTO.PaginationDTO",
-        "IsRequired": true
+        "Name": "liczbaElementow",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "numerStrony",
+        "Type": "System.Int32",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": [

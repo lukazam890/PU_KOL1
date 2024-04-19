@@ -17,11 +17,17 @@ namespace DAL.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Nazwa = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    Nazwa = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    ParentID = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Grupy", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Grupy_Grupy_ParentID",
+                        column: x => x.ParentID,
+                        principalTable: "Grupy",
+                        principalColumn: "Id");
                 });
 
             migrationBuilder.CreateTable(
@@ -32,12 +38,19 @@ namespace DAL.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Imie = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Nazwisko = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    IdGrupy = table.Column<int>(type: "int", nullable: false),
                     Typ_akcji = table.Column<int>(type: "int", nullable: false),
                     Data = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Historie", x => x.ID);
+                    table.ForeignKey(
+                        name: "FK_Historie_Grupy_IdGrupy",
+                        column: x => x.IdGrupy,
+                        principalTable: "Grupy",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -59,6 +72,16 @@ namespace DAL.Migrations
                         principalTable: "Grupy",
                         principalColumn: "Id");
                 });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Grupy_ParentID",
+                table: "Grupy",
+                column: "ParentID");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Historie_IdGrupy",
+                table: "Historie",
+                column: "IdGrupy");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Studenci_GrupaID",

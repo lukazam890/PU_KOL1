@@ -18,5 +18,9 @@ namespace DAL
         {
             optionsBuilder.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=StudenciDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False");
         }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Grupa>().HasOne(p => p.Parent).WithMany(c => c.Children).OnDelete(DeleteBehavior.NoAction);
+        }
     }
 }

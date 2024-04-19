@@ -15,9 +15,9 @@ namespace StudenciWebAPI.Controllers
             this._service = service;
         }
         [HttpGet]
-        public IEnumerable<HistoriaResponseDTO> WyswietlHistorie(PaginationDTO stronnicowanie)
+        public IEnumerable<HistoriaResponseDTO> WyswietlHistorie(int liczbaElementow, int numerStrony)
         {
-            return _service.WyswietlHistorie(stronnicowanie);
+            return _service.WyswietlHistorie(liczbaElementow, numerStrony);
         }
     }
 }

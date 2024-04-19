@@ -10,6 +10,6 @@ namespace BLL.ServiceInterfaces
 {
     public interface IHistorie
     {
-        public IEnumerable<HistoriaResponseDTO> WyswietlHistorie(PaginationDTO stronnicowanie);
+        public IEnumerable<HistoriaResponseDTO> WyswietlHistorie(int liczbaElementow, int numerStrony);
     }
 }

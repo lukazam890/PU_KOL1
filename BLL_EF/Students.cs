@@ -15,6 +15,7 @@ namespace BLL_EF
     public class Students : IStudents
     {
         private readonly StudenciContext _context;
+        private readonly string _connectionString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=StudenciDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False";
         public Students(StudenciContext context)
         {
             _context = context;
@@ -31,9 +32,9 @@ namespace BLL_EF
             _context.Studenci.Add(student);
             _context.SaveChanges();
             */
-            using(SqlConnection connection = new SqlConnection("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=StudenciDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False"))
+            using(SqlConnection connection = new SqlConnection(_connectionString))
             {
-                string query = " exec DodajStudenta " + studentDTO.Imie + ", " + studentDTO.Nazwisko + ", " + studentDTO.GrupaID;
+                string query = "exec DodajStudenta " + studentDTO.Imie + ", " + studentDTO.Nazwisko + ", " + studentDTO.GrupaID;
                 SqlCommand sqlCommand = new SqlCommand(query, connection);
                 sqlCommand.Connection.Open();
                 sqlCommand.ExecuteNonQuery();
@@ -43,11 +44,21 @@ namespace BLL_EF
 
         public void DeleteStudent(int id)
         {
+            /*
             Student? student = _context.Studenci.FirstOrDefault(s => s.ID == id);
             if (student != null)
             {
                 _context.Studenci.Remove(student);
                 _context.SaveChanges();
+            }
+            */
+            using (SqlConnection connection = new SqlConnection(_connectionString))
+            {
+                string query = "exec UsunStudenta " + id;
+                SqlCommand sqlCommand = new SqlCommand(query, connection);
+                sqlCommand.Connection.Open();
+                sqlCommand.ExecuteNonQuery();
+                sqlCommand.Connection.Close();
             }
         }
 
@@ -66,6 +77,7 @@ namespace BLL_EF
 
         public void UpdateStudent(int id, StudentRequestDTO studentDTO)
         {
+            /*
             Student? student = _context.Studenci.FirstOrDefault(s => s.ID == id);
             if (studentDTO != null)
             {
@@ -73,6 +85,15 @@ namespace BLL_EF
                 student.Nazwisko = studentDTO.Nazwisko;
                 student.GrupaID = studentDTO.GrupaID;
                 _context.SaveChanges();
+            }
+            */
+            using (SqlConnection connection = new SqlConnection(_connectionString))
+            {
+                string query = "exec UpdateStudent " + id + ", " + studentDTO.Imie + ", " + studentDTO.Nazwisko + ", " + studentDTO.GrupaID;
+                SqlCommand sqlCommand = new SqlCommand(query, connection);
+                sqlCommand.Connection.Open();
+                sqlCommand.ExecuteNonQuery();
+                sqlCommand.Connection.Close();
             }
         }
     }

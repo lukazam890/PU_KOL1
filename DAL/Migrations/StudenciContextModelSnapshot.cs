@@ -34,7 +34,12 @@ namespace DAL.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int?>("ParentID")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("ParentID");
 
                     b.ToTable("Grupy");
                 });
@@ -97,6 +102,16 @@ namespace DAL.Migrations
                     b.ToTable("Studenci");
                 });
 
+            modelBuilder.Entity("Model.Grupa", b =>
+                {
+                    b.HasOne("Model.Grupa", "Parent")
+                        .WithMany("Children")
+                        .HasForeignKey("ParentID")
+                        .OnDelete(DeleteBehavior.NoAction);
+
+                    b.Navigation("Parent");
+                });
+
             modelBuilder.Entity("Model.Historia", b =>
                 {
                     b.HasOne("Model.Grupa", "Grupa")
@@ -115,6 +130,11 @@ namespace DAL.Migrations
                         .HasForeignKey("GrupaID");
 
                     b.Navigation("Grupa");
+                });
+
+            modelBuilder.Entity("Model.Grupa", b =>
+                {
+                    b.Navigation("Children");
                 });
 #pragma warning restore 612, 618
         }
