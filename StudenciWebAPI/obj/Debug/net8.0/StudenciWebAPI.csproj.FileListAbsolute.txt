@@ -30,3 +30,4 @@ C:\Users\Student RM4-3073 05\Documents\GitHub\PU_KOL1\StudenciWebAPI\obj\Debug\n
 C:\Users\Student RM4-3073 05\Documents\GitHub\PU_KOL1\StudenciWebAPI\obj\Debug\net8.0\StudenciWebAPI.pdb
 C:\Users\Student RM4-3073 05\Documents\GitHub\PU_KOL1\StudenciWebAPI\obj\Debug\net8.0\StudenciWebAPI.genruntimeconfig.cache
 C:\Users\Student RM4-3073 05\Documents\GitHub\PU_KOL1\StudenciWebAPI\obj\Debug\net8.0\ref\StudenciWebAPI.dll
+C:\Users\Student RM4-3073 05\Documents\GitHub\PU_KOL1\StudenciWebAPI\obj\Debug\net8.0\StudenciWebAPI.sourcelink.json

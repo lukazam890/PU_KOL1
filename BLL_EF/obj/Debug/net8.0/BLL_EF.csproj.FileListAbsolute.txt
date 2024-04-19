@@ -9,3 +9,12 @@ C:\Users\Student RM4-3073 05\Documents\GitHub\PU_KOL1\BLL_EF\obj\Debug\net8.0\BL
 C:\Users\Student RM4-3073 05\Documents\GitHub\PU_KOL1\BLL_EF\obj\Debug\net8.0\refint\BLL_EF.dll
 C:\Users\Student RM4-3073 05\Documents\GitHub\PU_KOL1\BLL_EF\obj\Debug\net8.0\BLL_EF.pdb
 C:\Users\Student RM4-3073 05\Documents\GitHub\PU_KOL1\BLL_EF\obj\Debug\net8.0\ref\BLL_EF.dll
+C:\Users\Student RM4-3073 05\Documents\GitHub\PU_KOL1\BLL_EF\bin\Debug\net8.0\BLL.dll
+C:\Users\Student RM4-3073 05\Documents\GitHub\PU_KOL1\BLL_EF\bin\Debug\net8.0\DAL.dll
+C:\Users\Student RM4-3073 05\Documents\GitHub\PU_KOL1\BLL_EF\bin\Debug\net8.0\Model.dll
+C:\Users\Student RM4-3073 05\Documents\GitHub\PU_KOL1\BLL_EF\bin\Debug\net8.0\BLL.pdb
+C:\Users\Student RM4-3073 05\Documents\GitHub\PU_KOL1\BLL_EF\bin\Debug\net8.0\DAL.pdb
+C:\Users\Student RM4-3073 05\Documents\GitHub\PU_KOL1\BLL_EF\bin\Debug\net8.0\Model.pdb
+C:\Users\Student RM4-3073 05\Documents\GitHub\PU_KOL1\BLL_EF\obj\Debug\net8.0\BLL_EF.csproj.AssemblyReference.cache
+C:\Users\Student RM4-3073 05\Documents\GitHub\PU_KOL1\BLL_EF\obj\Debug\net8.0\BLL_EF.sourcelink.json
+C:\Users\Student RM4-3073 05\Documents\GitHub\PU_KOL1\BLL_EF\obj\Debug\net8.0\BLL_EF.csproj.Up2Date
