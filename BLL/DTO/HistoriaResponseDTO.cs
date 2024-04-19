@@ -12,6 +12,7 @@ namespace BLL.DTO
         public int ID { get; init; }
         public string Imie { get; init; }
         public string Nazwisko { get; init; }
+        public string NazwaGrupy { get; init; }
         public TypAkcji Typ_akcji { get; init; }
         public DateTime Data { get; init; }
     }
