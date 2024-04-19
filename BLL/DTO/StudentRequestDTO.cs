@@ -10,6 +10,6 @@ namespace BLL.DTO
     {
         public string Imie { get; init; }
         public string Nazwisko { get; init; }
-        public GrupaRequestDTO Grupa { get; init; }
+        public int? GrupaID { get; init; }
     }
 }

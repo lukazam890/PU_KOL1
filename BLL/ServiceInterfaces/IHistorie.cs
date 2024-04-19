@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace BLL.ServiceInterfaces
 {
-    public interface IHistoria
+    public interface IHistorie
     {
         public IEnumerable<Historia> WyswietlHistorie(PaginationDTO stronnicowanie);
     }

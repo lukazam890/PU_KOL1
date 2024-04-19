@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace BLL.ServiceInterfaces
 {
-    public interface IStudent
+    public interface IStudents
     {
-        public void CreateStudent(StudentRequestDTO student);
-        public void UpdateStudent(StudentResponseDTO student);
+        public void CreateStudent(StudentRequestDTO studentDTO);
+        public void UpdateStudent(int id, StudentRequestDTO studentDTO);
         public void DeleteStudent(int id);
         public IEnumerable<StudentResponseDTO> GetAllStudents();
     }

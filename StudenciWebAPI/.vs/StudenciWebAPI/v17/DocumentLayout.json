@@ -3,34 +3,33 @@
   "WorkspaceRootPath": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\PU_KOL1\\StudenciWebAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6D3751A2-B97B-47EC-958E-AF013D4ECCB3}|..\\BLL_EF\\BLL_EF.csproj|c:\\users\\student rm4-3073 05\\documents\\github\\pu_kol1\\bll_ef\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F6554199-1A8B-4C0E-923E-72E9B6A073A9}|StudenciWebAPI.csproj|c:\\users\\student rm4-3073 05\\documents\\github\\pu_kol1\\studenciwebapi\\controllers\\studencicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6554199-1A8B-4C0E-923E-72E9B6A073A9}|StudenciWebAPI.csproj|solutionrelative:controllers\\studencicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08039209-7646-456B-9BEF-1C2984E07842}|..\\BLL\\BLL.csproj|c:\\users\\student rm4-3073 05\\documents\\github\\pu_kol1\\bll\\dto\\studentresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F6554199-1A8B-4C0E-923E-72E9B6A073A9}|StudenciWebAPI.csproj|c:\\users\\student rm4-3073 05\\documents\\github\\pu_kol1\\studenciwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6554199-1A8B-4C0E-923E-72E9B6A073A9}|StudenciWebAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D3751A2-B97B-47EC-958E-AF013D4ECCB3}|..\\BLL_EF\\BLL_EF.csproj|c:\\users\\student rm4-3073 05\\documents\\github\\pu_kol1\\bll_ef\\students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{08039209-7646-456B-9BEF-1C2984E07842}|..\\BLL\\BLL.csproj|c:\\users\\student rm4-3073 05\\documents\\github\\pu_kol1\\bll\\dto\\studentrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08039209-7646-456B-9BEF-1C2984E07842}|..\\BLL\\BLL.csproj|c:\\users\\student rm4-3073 05\\documents\\github\\pu_kol1\\bll\\dto\\paginationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B23247E-886D-4527-AE7B-AB924509BC15}|..\\Model\\Model.csproj|c:\\users\\student rm4-3073 05\\documents\\github\\pu_kol1\\model\\grupa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08039209-7646-456B-9BEF-1C2984E07842}|..\\BLL\\BLL.csproj|c:\\users\\student rm4-3073 05\\documents\\github\\pu_kol1\\bll\\dto\\historiaresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B23247E-886D-4527-AE7B-AB924509BC15}|..\\Model\\Model.csproj|c:\\users\\student rm4-3073 05\\documents\\github\\pu_kol1\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08039209-7646-456B-9BEF-1C2984E07842}|..\\BLL\\BLL.csproj|c:\\users\\student rm4-3073 05\\documents\\github\\pu_kol1\\bll\\dto\\historiarequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4F7D126-3990-4E72-B167-E37C020795B5}|..\\DAL\\DAL.csproj|c:\\users\\student rm4-3073 05\\documents\\github\\pu_kol1\\dal\\studencicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08039209-7646-456B-9BEF-1C2984E07842}|..\\BLL\\BLL.csproj|c:\\users\\student rm4-3073 05\\documents\\github\\pu_kol1\\bll\\dto\\gruparesponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08039209-7646-456B-9BEF-1C2984E07842}|..\\BLL\\BLL.csproj|c:\\users\\student rm4-3073 05\\documents\\github\\pu_kol1\\bll\\dto\\studentresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08039209-7646-456B-9BEF-1C2984E07842}|..\\BLL\\BLL.csproj|c:\\users\\student rm4-3073 05\\documents\\github\\pu_kol1\\bll\\dto\\gruparequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08039209-7646-456B-9BEF-1C2984E07842}|..\\BLL\\BLL.csproj|c:\\users\\student rm4-3073 05\\documents\\github\\pu_kol1\\bll\\serviceinterfaces\\istudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08039209-7646-456B-9BEF-1C2984E07842}|..\\BLL\\BLL.csproj|c:\\users\\student rm4-3073 05\\documents\\github\\pu_kol1\\bll\\serviceinterfaces\\ihistoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08039209-7646-456B-9BEF-1C2984E07842}|..\\BLL\\BLL.csproj|c:\\users\\student rm4-3073 05\\documents\\github\\pu_kol1\\bll\\serviceinterfaces\\istudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -40,136 +39,123 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "StudentResponseDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\PU_KOL1\\BLL\\DTO\\StudentResponseDTO.cs",
-              "RelativeDocumentMoniker": "..\\BLL\\DTO\\StudentResponseDTO.cs",
-              "ToolTip": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\PU_KOL1\\BLL\\DTO\\StudentResponseDTO.cs",
-              "RelativeToolTip": "..\\BLL\\DTO\\StudentResponseDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAxAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\PU_KOL1\\StudenciWebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\PU_KOL1\\StudenciWebAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T14:23:37.476Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StudentRequestDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\PU_KOL1\\BLL\\DTO\\StudentRequestDTO.cs",
-              "RelativeDocumentMoniker": "..\\BLL\\DTO\\StudentRequestDTO.cs",
-              "ToolTip": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\PU_KOL1\\BLL\\DTO\\StudentRequestDTO.cs",
-              "RelativeToolTip": "..\\BLL\\DTO\\StudentRequestDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T14:23:30.645Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PaginationDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\PU_KOL1\\BLL\\DTO\\PaginationDTO.cs",
-              "RelativeDocumentMoniker": "..\\BLL\\DTO\\PaginationDTO.cs",
-              "ToolTip": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\PU_KOL1\\BLL\\DTO\\PaginationDTO.cs",
-              "RelativeToolTip": "..\\BLL\\DTO\\PaginationDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T14:23:25.297Z",
+              "WhenOpened": "2024-04-19T14:52:39.592Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "HistoriaResponseDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\PU_KOL1\\BLL\\DTO\\HistoriaResponseDTO.cs",
-              "RelativeDocumentMoniker": "..\\BLL\\DTO\\HistoriaResponseDTO.cs",
-              "ToolTip": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\PU_KOL1\\BLL\\DTO\\HistoriaResponseDTO.cs",
-              "RelativeToolTip": "..\\BLL\\DTO\\HistoriaResponseDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAoAAAA",
+              "Title": "Grupa.cs",
+              "DocumentMoniker": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\PU_KOL1\\Model\\Grupa.cs",
+              "RelativeDocumentMoniker": "..\\Model\\Grupa.cs",
+              "ToolTip": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\PU_KOL1\\Model\\Grupa.cs",
+              "RelativeToolTip": "..\\Model\\Grupa.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T14:23:10.708Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "HistoriaRequestDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\PU_KOL1\\BLL\\DTO\\HistoriaRequestDTO.cs",
-              "RelativeDocumentMoniker": "..\\BLL\\DTO\\HistoriaRequestDTO.cs",
-              "ToolTip": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\PU_KOL1\\BLL\\DTO\\HistoriaRequestDTO.cs",
-              "RelativeToolTip": "..\\BLL\\DTO\\HistoriaRequestDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T14:23:02.686Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "GrupaResponseDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\PU_KOL1\\BLL\\DTO\\GrupaResponseDTO.cs",
-              "RelativeDocumentMoniker": "..\\BLL\\DTO\\GrupaResponseDTO.cs",
-              "ToolTip": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\PU_KOL1\\BLL\\DTO\\GrupaResponseDTO.cs",
-              "RelativeToolTip": "..\\BLL\\DTO\\GrupaResponseDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T14:22:44.131Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GrupaRequestDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\PU_KOL1\\BLL\\DTO\\GrupaRequestDTO.cs",
-              "RelativeDocumentMoniker": "..\\BLL\\DTO\\GrupaRequestDTO.cs",
-              "ToolTip": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\PU_KOL1\\BLL\\DTO\\GrupaRequestDTO.cs",
-              "RelativeToolTip": "..\\BLL\\DTO\\GrupaRequestDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T14:22:44.767Z",
+              "WhenOpened": "2024-04-19T14:46:56.243Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\PU_KOL1\\BLL_EF\\Student.cs",
-              "RelativeDocumentMoniker": "..\\BLL_EF\\Student.cs",
-              "ToolTip": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\PU_KOL1\\BLL_EF\\Student.cs",
-              "RelativeToolTip": "..\\BLL_EF\\Student.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAQwBQAAAAwAAAA",
+              "Title": "StudenciController.cs",
+              "DocumentMoniker": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\PU_KOL1\\StudenciWebAPI\\Controllers\\StudenciController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudenciController.cs",
+              "ToolTip": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\PU_KOL1\\StudenciWebAPI\\Controllers\\StudenciController.cs",
+              "RelativeToolTip": "Controllers\\StudenciController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAwAEAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T14:20:20.44Z",
+              "WhenOpened": "2024-04-19T14:45:43.658Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IHistoria.cs",
-              "DocumentMoniker": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\PU_KOL1\\BLL\\ServiceInterfaces\\IHistoria.cs",
-              "RelativeDocumentMoniker": "..\\BLL\\ServiceInterfaces\\IHistoria.cs",
-              "ToolTip": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\PU_KOL1\\BLL\\ServiceInterfaces\\IHistoria.cs",
-              "RelativeToolTip": "..\\BLL\\ServiceInterfaces\\IHistoria.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "Students.cs",
+              "DocumentMoniker": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\PU_KOL1\\BLL_EF\\Students.cs",
+              "RelativeDocumentMoniker": "..\\BLL_EF\\Students.cs",
+              "ToolTip": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\PU_KOL1\\BLL_EF\\Students.cs",
+              "RelativeToolTip": "..\\BLL_EF\\Students.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAIwDcAAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T14:19:28.627Z",
+              "WhenOpened": "2024-04-19T14:25:25.135Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "IStudent.cs",
-              "DocumentMoniker": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\PU_KOL1\\BLL\\ServiceInterfaces\\IStudent.cs",
-              "RelativeDocumentMoniker": "..\\BLL\\ServiceInterfaces\\IStudent.cs",
-              "ToolTip": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\PU_KOL1\\BLL\\ServiceInterfaces\\IStudent.cs",
-              "RelativeToolTip": "..\\BLL\\ServiceInterfaces\\IStudent.cs",
+              "Title": "IStudents.cs",
+              "DocumentMoniker": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\PU_KOL1\\BLL\\ServiceInterfaces\\IStudents.cs",
+              "RelativeDocumentMoniker": "..\\BLL\\ServiceInterfaces\\IStudents.cs",
+              "ToolTip": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\PU_KOL1\\BLL\\ServiceInterfaces\\IStudents.cs",
+              "RelativeToolTip": "..\\BLL\\ServiceInterfaces\\IStudents.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T14:34:46.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StudenciContext.cs",
+              "DocumentMoniker": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\PU_KOL1\\DAL\\StudenciContext.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\StudenciContext.cs",
+              "ToolTip": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\PU_KOL1\\DAL\\StudenciContext.cs",
+              "RelativeToolTip": "..\\DAL\\StudenciContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T14:19:27.005Z",
+              "WhenOpened": "2024-04-19T14:30:15.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StudentResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\PU_KOL1\\BLL\\DTO\\StudentResponseDTO.cs",
+              "RelativeDocumentMoniker": "..\\BLL\\DTO\\StudentResponseDTO.cs",
+              "ToolTip": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\PU_KOL1\\BLL\\DTO\\StudentResponseDTO.cs",
+              "RelativeToolTip": "..\\BLL\\DTO\\StudentResponseDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T14:29:29.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\PU_KOL1\\BLL\\DTO\\StudentRequestDTO.cs",
+              "RelativeDocumentMoniker": "..\\BLL\\DTO\\StudentRequestDTO.cs",
+              "ToolTip": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\PU_KOL1\\BLL\\DTO\\StudentRequestDTO.cs",
+              "RelativeToolTip": "..\\BLL\\DTO\\StudentRequestDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T14:29:01.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\PU_KOL1\\Model\\Student.cs",
+              "RelativeDocumentMoniker": "..\\Model\\Student.cs",
+              "ToolTip": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\PU_KOL1\\Model\\Student.cs",
+              "RelativeToolTip": "..\\Model\\Student.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T14:28:27.052Z",
               "EditorCaption": ""
             }
           ]
